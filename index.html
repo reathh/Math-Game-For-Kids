@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Математическа игра</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="jquery-2.1.1.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="operations">
+        <div><input type="radio" name="operation" id="addition" checked="checked"/><label
+                for="addition">Събиране</label></div>
+        <div><input type="radio" name="operation" id="subtraction"/><label for="subtraction">Изваждане</label></div>
+        <div><input type="radio" name="operation" id="multiplication"/><label for="multiplication">Умножение</label>
+        </div>
+        <div><input type="radio" name="operation" id="division"/><label for="division">Деление</label></div>
+    </div>
+    <div id="number-choosers">
+        <div id="left">
+            <div>Начално число за лява страна: <input type="number" name="number-chooser" id="left-from" value="1"
+                                                      min="1"/></div>
+            <div>Крайно число за лява страна: <input type="number" name="number-chooser" id="left-to" value="1"
+                                                     min="1"/></div>
+        </div>
+        <div id="right">
+            <div>Начално число за дясна страна: <input type="number" name="number-chooser" id="right-from" value="1"
+                                                       min="1"/></div>
+            <div>Крайно число за дясна страна: <input type="number" name="number-chooser" id="right-to" value="1"
+                                                      min="1"/></div>
+        </div>
+    </div>
+    <div id="test">
+        <span id="left-number">1</span><span id="operation-symbol">+</span><span id="right-number">1</span>= <input
+            type="number" id="answer"/>
+        <button id="solve">Реши</button>
+        <button id="get-answer">Виж отговора</button>
+    </div>
+</div>
+</body>
+</html>

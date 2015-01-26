@@ -1,0 +1,58 @@
+body {
+    font-size: 1.2em;
+}
+#wrapper {
+    width: 100%;
+    text-align: center;
+}
+#left, #right {
+    border: 2px solid deepskyblue;
+    padding: 5px;
+}
+#operations {
+    margin-bottom: 10px;
+}
+#operations div {
+    display: inline-block;
+}
+#operations label {
+    margin-right: 10px;
+}
+#number-choosers #left, #right {
+    display: inline-block;
+
+}
+#test {
+    margin-top: 22px;
+}
+#test span, #test input {
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+input[type="number"] {
+    font-size: 20px;
+    width: 50px;
+}
+button {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-color: chartreuse;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: deepskyblue;
+}
+#solve {
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+}
+.rightAnswer {
+    border:2px solid lawngreen;
+    border-radius: 5px;
+}
+.wrongAnswer {
+    border:2px solid red;
+    border-radius: 10px;
+}
